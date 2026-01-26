@@ -29,14 +29,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # CINTENT >> INSERT_CINTENT
-      - uses: JavidDitty/setup-cintent@64faaac1333aabc2e0a00af6109b48ec4d8071bf
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           architecture: 'x64'
+
+      # CINTENT >> INSERT_CINTENT
+      - uses: JavidDitty/setup-cintent@79d20aaa5fcb487e57e09d40e7b3b62fd53417e8
 
       - name: Install dependencies
         run: |
