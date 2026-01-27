@@ -36,7 +36,7 @@ jobs:
           architecture: 'x64'
 
       # CINTENT >> INSERT_CINTENT
-      - uses: JavidDitty/setup-cintent@bddc4f20384f95e183d7baad75c261c72bb5cfe1
+      - uses: JavidDitty/setup-cintent@3e5b2faf83a2ad32c22a1cd0f86f5f20ea53a5ab
 
       - name: Install dependencies
         run: |
